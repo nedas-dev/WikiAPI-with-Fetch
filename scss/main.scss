@@ -1,0 +1,50 @@
+h1{
+    color: blue;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    margin:auto;
+    background-color: rgb(157, 157, 132);
+    div{
+        text-align: center;
+        margin-top: 1rem;
+        button{
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    }
+}
+
+
+main{
+    margin-bottom: 30px;
+    background: linear-gradient(rgb(203, 203, 134), rgb(118, 118, 181));
+    section{
+        div.profile{
+            img{
+                border-radius: 5px;;
+            }
+            display: flex;
+            padding: 2rem;
+            justify-content: space-evenly;
+            div{
+                border: 1px solid rgb(155, 151, 151);
+                box-shadow: 5px 5px 10px 5px rgb(138, 142, 138) ;
+                padding: 2rem;
+                width: 50%;
+                h2{
+                    text-align: center;
+                }
+                p.regular{
+                    text-align: left;
+                }
+                p.important{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

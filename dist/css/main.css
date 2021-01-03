@@ -1,0 +1,36 @@
+h1 {
+  color: blue; }
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  margin: auto;
+  background-color: #9d9d84; }
+  body div {
+    text-align: center;
+    margin-top: 1rem; }
+    body div button {
+      padding: 10px 20px;
+      cursor: pointer; }
+
+main {
+  margin-bottom: 30px;
+  background: linear-gradient(#cbcb86, #7676b5); }
+  main section div.profile {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-evenly; }
+    main section div.profile img {
+      border-radius: 5px; }
+    main section div.profile div {
+      border: 1px solid #9b9797;
+      box-shadow: 5px 5px 10px 5px #8a8e8a;
+      padding: 2rem;
+      width: 50%; }
+      main section div.profile div h2 {
+        text-align: center; }
+      main section div.profile div p.regular {
+        text-align: left; }
+      main section div.profile div p.important {
+        text-align: center; }
