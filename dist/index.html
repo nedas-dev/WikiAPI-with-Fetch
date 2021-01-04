@@ -4,17 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fetching wikiAPI</title>
+    <script src="https://kit.fontawesome.com/7c0fbdbb67.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <div>
-        <button>Add a person</button>
-    </div>
+    <div class="alert" style="display:none"></div>
+
+    <nav>
+        <form id="addPerson">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Type in first and last name">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-primary" type="submit">Search a person</button>
+                </div>
+            </div>
+        </form>
+    </nav>
+
     <main>
         <section class="people"></section>
-        <script src="js/main.js"></script>
     </main>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
