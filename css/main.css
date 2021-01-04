@@ -48,11 +48,11 @@ body {
         body main section.people div.profile div p.important {
           text-align: center; }
       body main section.people div.profile i.trash {
-        transition: all 0.3s ease;
-        display: none;
+        transition: font-size 0.3s ease, opacity 1s ease;
+        opacity: 0;
         cursor: pointer;
         font-size: 1.3rem; }
       body main section.people div.profile:hover i.trash {
-        display: block; }
+        opacity: 1; }
         body main section.people div.profile:hover i.trash:hover {
           font-size: 2rem; }
